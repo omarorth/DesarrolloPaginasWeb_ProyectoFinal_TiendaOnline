@@ -1,0 +1,146 @@
+/* DesarrolloPaginasWeb_ProyectoFinal_TiendaOnline.css */
+
+* {
+    font-family: arial, sans-serif;
+  }
+  
+  .logo {
+    mix-blend-mode: multiply;
+    height: 50px;
+  }
+  
+  menu {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+  }
+  
+  menu ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  menu li {
+    list-style: none;
+    float: left;
+    padding: 1px 10px;
+    font-weight: bold;
+  }
+  
+  menu li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .botones {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  
+  header button,
+  .boton-blanco {
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding: 5px 13px;
+    background-color: transparent;
+  }
+  
+  .experiencia {
+    text-align: center;
+    background-color: #0b401f;
+    color: #fff;
+    padding: 5px 0 20px 0;
+  }
+  
+  .parrafo-1 {
+    font-size: 2.0rem;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .experiencia a {
+    color: #fff;
+  }
+  
+  .alebrijes-mexicanos,
+  .creatividad {
+    border-top: 14px solid #fff;
+    height: 250px;
+    text-align: center;
+  }
+  
+  .alebrijes-mexicanos-imagen {
+    width: 50%;
+    float: left;
+  }
+  
+  .alebrijes-mexicanos .alebrijes-mexicanos-imagen img {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .alebrijes-mexicanos-texto {
+    background-color: red;
+    width: 50%;
+    height: 250px;
+    float: right;
+  }
+  
+  .alebrijes-mexicanos-texto p,
+  .creatividad-texto p {
+    color: #fff;
+  }
+  
+  .boton-blanco {
+    color: #fff;
+    border-color: white;
+  }
+  
+  .creatividad {
+    height: 250px;
+  }
+  
+   .creatividad-texto {
+     background-color: red;
+     width: 50%;
+     height: 250px;
+     float: left;
+  } 
+  
+  .creatividad-imagen {
+    width: 50%;
+    float: right;
+  }
+  
+  .creatividad .creatividad-imagen img {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .footer {
+    padding: 25px;
+  }
+  
+  .redes-sociales {
+    padding: 25px 25px 0 25px;
+    border-top: 1px solid lightgray;
+    margin-top: 30px;
+  }
+  
+  .icono-redes-sociales {
+    height: 50px;
+  }
+  
+  footer p {
+    padding-left: 30px;
+    font-size: 0.9rem;
+  }
